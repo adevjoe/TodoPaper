@@ -1,0 +1,73 @@
+<view class="task-card">
+    <view class="content level">
+        <view class="laber">
+            <text>紧急程度:</text>
+        </view>
+        <view class="level-picker value">
+            <picker bindchange="levelChange" value="{{task.levelIndex}}" range="{{staticData.level}}">
+                {{staticData.level[task.levelIndex]}}
+            </picker>
+        </view>
+    </view>
+    <view class="page-head-line"></view>
+    <view class="content deadline">
+        <view class="laber">
+            <text>截止日期:</text>
+        </view>
+        <view class="date-picker value">
+            <picker mode="date" bindchange="dateChange" value="{{task.deadLine}}" start="2017-01-01" end="2050-12-31">
+                {{task.deadLine}}
+            </picker>
+        </view>
+    </view>
+    <view class="page-head-line"></view>
+    <view class="content deadline">
+        <view class="laber">
+            <text>时间:</text>
+        </view>
+        <view class="time-picker value">
+            <picker mode="time" value="{{task.time}}" start="00:00" end="23:59" bindchange="timeChange">
+                {{task.time}}
+            </picker>
+        </view>
+    </view>
+    <view class="page-head-line"></view>
+    <view class="content everyday">
+        <view class="laber">
+            <text>每天:</text>
+        </view>
+        <view class="value"><switch bindchange="everydayChange"/></view>
+    </view>
+    <view class="page-head-line"></view>
+    <view class="content title">
+        <view class="laber">
+            <text>名称:</text>
+        </view>
+        <view class="input">
+            <input placeholder="请输入任务名" type="text" placeholder-style="color:grey;line-height: 60rpx;" bindinput="bindInputTitle" />
+        </view>
+    </view>
+    <view class="page-head-line"></view>
+    <view class="content description">
+        <view class="laber">
+            <text>描述:</text>
+        </view>
+        <view class="input">
+            <input placeholder="请输入描述" type="text" placeholder-style="color:grey;line-height: 60rpx;" bindinput="bindInputDescription" />
+        </view>
+    </view>
+    <view class="page-head-line"></view>
+    <view class="content tag">
+        <view class="laber">
+            <text>分类:</text>
+        </view>
+        <view class="tag-picker value">
+            <picker bindchange="tagChange" value="{{task.tagIndex}}" range="{{staticData.tag}}">
+                {{staticData.tag[task.tagIndex]}}
+            </picker>
+        </view>
+    </view>
+    <view class="create">
+        <button type="primary" bindtap="submit">添加</button>
+    </view>
+</view>

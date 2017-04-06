@@ -1,0 +1,75 @@
+.no-task{
+    margin-top: 50rpx;
+    font-size: 30rpx;
+    color: gray;
+    text-align: center;
+}
+.task-card{
+    background-color: white;
+    width: 80%;
+    margin: 50rpx auto;
+    height: 350rpx;
+    padding: 20rpx 20rpx 0 20rpx;
+    border-radius: 20rpx;
+    flex-direction: column;
+}
+.task-card-header{
+    color: gray;
+    padding: 10rpx 0;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.task-card-body{
+    height: 170rpx;
+    padding-top: 30rpx;
+    flex-direction: column;
+}
+.task-card-footer{
+    height: 80rpx;
+    flex-direction: row;
+}
+.task-level{
+    height: 40rpx;
+    width: 40rpx;
+}
+.task-card-header text{
+    margin-left: 30rpx;
+    font-size: 30rpx;
+    line-height: 50rpx;
+}
+.task-close{
+    position: absolute;
+    right: 9%;
+    height: 40rpx;
+    width: 40rpx;
+}
+.task-title{
+    font-size: 40rpx;
+    height: 50rpx;
+    overflow: hidden;
+}
+.task-description{
+    font-size: 28rpx;
+    color: gray;
+    height: 100rpx;
+    overflow: hidden;
+    margin-top: 20rpx;
+}
+.task-tag{
+    width: 160rpx;
+    padding: 10rpx 0;
+    display: flex;
+    align-items: center;
+    border-radius: 20rpx;
+    color: white;
+}
+.task-tag image{
+    margin-left: 15rpx;
+    height: 40rpx;
+    width: 40rpx;
+}
+.task-tag text{
+    margin-left: 15rpx;
+    font-size: 30rpx;
+}

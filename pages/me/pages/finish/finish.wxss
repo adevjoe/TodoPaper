@@ -1,0 +1,12 @@
+.content{
+    margin-top: 300rpx;
+    text-align: center;
+    color: gray;
+    font-size: 30rpx;
+    display: flex;
+    flex-direction: column;
+}
+.count{
+    color: lawngreen;
+    font-size: 200rpx;
+}

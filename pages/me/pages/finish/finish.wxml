@@ -1,0 +1,4 @@
+<view class="content">
+  <text class="count">{{count}}</text>
+  <text>已完成任务数</text>
+</view>

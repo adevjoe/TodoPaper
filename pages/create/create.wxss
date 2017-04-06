@@ -1,0 +1,31 @@
+.task-card{
+    background-color: white;
+    width: 80%;
+    margin: 50rpx auto;
+    height: auto;
+    padding: 25rpx 30rpx 30rpx 30rpx;
+    border-radius: 20rpx;
+    display: flex;
+    flex-direction: column;
+    font-size: 35rpx;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    padding: 10rpx;
+    height: 80rpx;
+    justify-content:space-between;
+}
+.laber{
+    line-height: 80rpx;
+    width: auto;
+}
+.value{
+    line-height: 80rpx;
+    width: auto;
+}
+.input{
+    width: 40%;
+    padding: 20rpx 0;
+    text-align: right;
+}

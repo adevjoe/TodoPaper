@@ -1,0 +1,36 @@
+<view class="header">
+    <block wx:if="{{userInfo === null}}">
+        <image  bindtap="getUserInfo"src="/img/default_user.png"></image>
+        <view class="nickname" bindtap="getUserInfo">点击登录</view>
+    </block>
+    <block wx:if="{{userInfo !== null}}">
+        <image src="{{userInfo.avatarUrl}}"></image>
+        <view class="nickname">{{userInfo.nickName}}</view>
+    </block>
+</view>
+<view class="menu">
+    <block wx:for="{{menu}}">
+        <view wx:if="{{index>0}}" class="page-head-line"></view>
+        <navigator url="{{item.page}}">
+            <view class="menu-section" hover-class="menu-section-hover" hover>
+                <image src="{{item.icon}}"></image>
+                <text>{{item.name}}</text>
+            </view>
+        </navigator>
+    </block>
+</view>
+<view class=" menu help">
+    <block wx:for="{{help}}">
+        <view wx:if="{{index>0}}" class="page-head-line"></view>
+        <navigator url="{{item.page}}">
+            <view class="menu-section" hover-class="menu-section-hover" hover>
+                <view class="menu-img"></view>
+                <image src="{{item.icon}}"></image>
+                <text>{{item.name}}</text>
+            </view>
+        </navigator>
+    </block>
+</view>
+<view class="version">
+    <text>{{version}}</text>
+</view>

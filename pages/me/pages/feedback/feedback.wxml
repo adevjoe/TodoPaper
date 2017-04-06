@@ -1,0 +1,4 @@
+<view class="contact">
+    <contact-button size="27" session-from="weapp">
+    </contact-button>
+</view>

@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/create/create",
+    "pages/me/me",
+
+    "pages/me/pages/config/config",
+    "pages/me/pages/feedback/feedback",
+    "pages/me/pages/finish/finish",
+    "pages/me/pages/help/help",
+    "pages/me/pages/info/info"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "backgroundColor": "#eeeeee",
+    "navigationBarBackgroundColor": "#e64645",
+    "navigationBarTitleText": "任务列表",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#e64645",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "img/index_icon.png",
+      "selectedIconPath": "img/index_icon_select.png"
+    }, {
+      "pagePath": "pages/create/create",
+      "text": "添加",
+      "iconPath": "img/create_icon.png",
+      "selectedIconPath": "img/create_icon_select.png"
+    }, {
+      "pagePath": "pages/me/me",
+      "text": "我",
+      "iconPath": "img/me_icon.png",
+      "selectedIconPath": "img/me_icon_select.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

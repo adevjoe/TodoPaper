@@ -1,0 +1,33 @@
+<!-- 下个版本添加搜索过滤功能 -->
+<!--
+<view class="search">
+
+</view>-->
+
+<!-- 任务卡片布局 -->
+<view wx:if="{{taskList.length === 0}}" class="no-task">
+  空空如也...
+</view>
+<block wx:if="{{taskList.length !== 0}}">
+  <block wx:for="{{taskList}}" wx:for-index="taskIndex" wx:for-item="task">
+    <view class="task-card">
+      <view class="task-card-header">
+          <image class="task-level" src="{{staticData.levelIcon[task.levelIndex]}}"></image>
+          <text>{{task.deadLine}}</text>
+          <text>{{task.time}}</text>
+          <text wx:if="{{task.everyday === true}}">everyday</text>
+          <image bindtap="openCloseMenu" data-task-index="{{taskIndex}}" class="task-close" src="/img/close.png"></image>
+      </view>
+      <view class="task-card-body">
+        <view class="task-title">{{task.title}}</view>
+        <view class="task-description">{{task.description}}</view>
+      </view>
+      <view class="task-card-footer">
+        <view class="task-tag" style="background-color: {{staticData.tagColor[task.tagIndex]}};">
+          <image src="/img/tag.png"></image>
+          <text>{{staticData.tag[task.tagIndex]}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+</block>
