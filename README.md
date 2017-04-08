@@ -6,13 +6,13 @@
 
 ## 预览
 
-![](https://img.90play.cn/3prYQ7ru0PKcHr1V)
+![](https://img.90play.cn/3prYQ7ru0PKcHr1V?imageMogr2/thumbnail/640x/blur/1x0/quality/75|imageslim)
 
-![](https://img.90play.cn/zK2zBjSVGAZ2j3Il)
+![](https://img.90play.cn/zK2zBjSVGAZ2j3Il?imageMogr2/thumbnail/640x/blur/1x0/quality/75|imageslim)
 
-![](https://img.90play.cn/78IJgnnYEZDbIp1Y)
+![](https://img.90play.cn/78IJgnnYEZDbIp1Y?imageMogr2/thumbnail/640x/blur/1x0/quality/75|imageslim)
 
-![](https://img.90play.cn/eScAUuJNCmaEL89w)
+![](https://img.90play.cn/eScAUuJNCmaEL89w?imageMogr2/thumbnail/640x/blur/1x0/quality/75|imageslim)
 
 ## 功能
 
