@@ -4,6 +4,8 @@
 
 一个记录任务，规划时间的微信小程序。
 
+![](https://img.90play.cn/gHI0FeQc4QpfyTyR)
+
 ## 预览
 
 ![](https://img.90play.cn/3prYQ7ru0PKcHr1V?imageMogr2/thumbnail/640x/blur/1x0/quality/100)
