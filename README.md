@@ -4,7 +4,7 @@
 
 一个记录任务，规划时间的微信小程序。
 
-![](https://img.90play.cn/gHI0FeQc4QpfyTyR)
+![](https://img.adevjoe.com/todopaperqr.jpg)
 
 ## 预览
 
@@ -42,24 +42,6 @@
 ## 相关资源
 
 [官方文档](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html)
-
-## 遇到的坑
-
-我是一个后端程序员，因为比较好奇小程序，所以做一个玩玩。对前端不怎么熟悉，因此遇到一些坑，记录下来。
-
-#### 页面布局之 flex
-
-#### app.json　配置标题（navigationBarTitleText）
-
-#### 数据绑定
-
-#### 跳转页面
-
-#### 导入　js 模块
-
-#### 设置数据(setData)
-
-#### linux 环境下开发
 
 未完
 
